@@ -75,10 +75,37 @@ filter: grayscale(1);
 .ex-6-img{
     transition: 2s;
 }
+/* ES 7 */
+.ex-7-img:hover{
+    filter: blur(5px);
+}
+.ex-7-img:hover{
+    filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+.ex-7-img{
+    transition: 3s;
+}
+/* ES 8 */
+.ex-8-img:hover{
+    filter: grayscale(1) contrast(200%);
+    border-radius: 10%;
+}
+.ex-8-img{
+    transition: 3s;
+}
+/* ES 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover{
+    filter: sepia(100%) hue-rotate(134deg);
+    border-radius: 10%;
+    transform:scale(1.5) ;}
+.ex-9-img{
+    transition: 5s;
+}
+/* ES 10 */
 .ex-10-icon {
     font-size: 60px;
 }
